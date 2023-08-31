@@ -3,6 +3,10 @@
   "builds": [{ "src": "src/main.ts", "use": "@vercel/node" }],
   "routes": [
     {
+      "src": "/",
+      "status": 204
+    },
+    {
       "src": "/favicon.ico",
       "status": 204
     },
